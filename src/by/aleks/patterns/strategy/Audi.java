@@ -2,11 +2,11 @@ package by.aleks.patterns.strategy;
 
 public class Audi extends Car{
 	
-	public Audi(){
+	public Audi(Engine engine){
 		
+		super(engine);
 		name = "Audi";
 		color = "yellow";
-		setEngine(new ElectricEngine());
 		
 	}
 

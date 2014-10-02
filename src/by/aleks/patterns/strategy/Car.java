@@ -2,6 +2,10 @@ package by.aleks.patterns.strategy;
 
 public class Car {
 	
+	public Car(Engine engine){
+		this.engine = engine;
+	}
+	
 	protected String name;
 	protected Engine engine;
 	protected String color;
