@@ -1,5 +1,6 @@
 package by.aleks.patterns.strategy;
 
+/** Implements the algorithm using the strategy(Engine) interface */
 public class HybridEngine implements Engine{
 	
 	@Override
